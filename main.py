@@ -45,8 +45,8 @@ def main():
 
     for i in range(1000):
         n = num()
-        random_numbers.append(num().number)
-        numbers_labels.append(num().label)
+        random_numbers.append(n.number)
+        numbers_labels.append(n.label)
     
     inputs = 4
 
